@@ -5,11 +5,11 @@
 </head>
 <body>
     <h1>사람의 어깨와 허리, 무릎 위치 표시</h1>
-    <video id="webcam" autoplay playsinline></video> //id속성이 웹캠으로 설정, autoplay, playsinline : 웹캠 비디오 자동 재생
-    <canvas id="output"></canvas> //posenet 이용한 위치 표시
+    <video id="webcam" autoplay playsinline></video> <!--id속성이 웹캠으로 설정, autoplay, playsinline : 웹캠 비디오 자동 재생-->
+    <canvas id="output"></canvas> <!-- posent 이용해서 관절 위치 표시-->
 
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/posenet"></script> //tensorflow&posenet 로드
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/posenet"></script> <!-- tesnorflow & posenet 로드-->
 
     <script>
         async function setupCamera() {
